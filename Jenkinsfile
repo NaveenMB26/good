@@ -18,7 +18,7 @@ pipeline{
         }
         stage('cloning all the sorce from remote repository'){
             steps{
-                sh 'sudo git clone https://gitlab.com/id15naveenmb/ci_cd_devsecops.git -b master /var/www/html '
+                sh 'sudo git clone https://github.com/NaveenMB26/good.git -b master /var/www/html '
             }
         }
     }
